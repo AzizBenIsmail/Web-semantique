@@ -2296,6 +2296,10 @@
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SousMarin_2"/>
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SousMarin_3"/>
         <transport:ACommePort rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports3"/>
+        <transport:ACommePort rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports5"/>
+        <transport:ACommePort rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports6"/>
+        <transport:ACommePort rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports7"/>
+        <transport:ACommePort rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports8"/>
         <transport:Mecanicien_naval rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_10"/>
         <transport:Capacité_de_Passagers rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9540</transport:Capacité_de_Passagers>
         <transport:Model>Maersk Triple E-Class</transport:Model>
@@ -2323,6 +2327,18 @@
         <transport:Nom>Day-cruisers</transport:Nom>
         <transport:Operator>United States Navy</transport:Operator>
         <transport:Type>Luxury Cruise Ship</transport:Type>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Navire_4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Navire_4">
+        <transport:ACommePort rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports1"/>
+        <transport:ACommePort rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports3"/>
+        <transport:ACommePort rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports6"/>
+        <transport:Mecanicien_naval rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_15"/>
+        <transport:Nom>Elyssa</transport:Nom>
     </owl:NamedIndividual>
 
 
@@ -2628,6 +2644,7 @@
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_9"/>
         <transport:Possede rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Drone_3"/>
         <transport:Possede rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voiture_3"/>
+        <transport:capitaineDeNavire rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Navire_4"/>
         <transport:piloteDe rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Avion_2"/>
         <transport:Adresse>789 Boulevard de la Liberté, Marseille</transport:Adresse>
         <transport:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</transport:Age>
@@ -2734,6 +2751,12 @@
 
 
 
+    <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Port5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Port5"/>
+
+
+
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports1">
@@ -2766,6 +2789,51 @@
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SousMarin_2"/>
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SousMarin_3"/>
         <transport:Nom>Sfax</transport:Nom>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports"/>
+        <transport:Nom>Soussa</transport:Nom>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports"/>
+        <transport:Nom>Bizert</transport:Nom>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports"/>
+        <transport:Nom>Sidi Bou Saïd</transport:Nom>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports"/>
+        <transport:Nom>Karekna</transport:Nom>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports"/>
+        <transport:Nom>Gamareth</transport:Nom>
     </owl:NamedIndividual>
 
 
