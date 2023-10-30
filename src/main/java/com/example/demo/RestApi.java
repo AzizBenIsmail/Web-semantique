@@ -16,7 +16,7 @@ public class RestApi {
 
     @GetMapping("/avion")
     @CrossOrigin(origins = "http://localhost:3000")
-    public String afficherAliment() {
+    public String afficherAvion() {
         String NS = "";
         if (model != null) {
 
