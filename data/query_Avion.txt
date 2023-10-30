@@ -2,7 +2,7 @@ PREFIX transport: <http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
-SELECT ?avion (SAMPLE(?model) AS ?sampleModel) (SAMPLE(?marque) AS ?sampleMarque) (SAMPLE(?matricule) AS ?sampleMatricule) (SAMPLE(?pilote) AS ?samplePilote) (SAMPLE(?nom) AS ?sampleNom) (SAMPLE(?prenom) AS ?samplePrenom) (SAMPLE(?sameIndividual) AS ?sampleSameIndividual)
+SELECT ?avion ?model ?marque ?matricule ?pilote ?nom ?prenom ?sameIndividual
 WHERE {
   ?avion rdf:type transport:Avion.
   ?avion transport:Model ?model.
@@ -13,4 +13,3 @@ WHERE {
   ?pilote transport:Prenom ?prenom.
   ?avion owl:sameAs ?sameIndividual.
 }
-GROUP BY ?avion

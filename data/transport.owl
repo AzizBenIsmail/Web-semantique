@@ -4233,8 +4233,11 @@
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SousMarin_1"/>
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SousMarin_2"/>
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SousMarin_3"/>
+        <transport:ACommePort rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports3"/>
+        <transport:Mecanicien_naval rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_10"/>
         <transport:Capacité_de_Passagers rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9540</transport:Capacité_de_Passagers>
         <transport:Model>Maersk Triple E-Class</transport:Model>
+        <transport:Nom>Hanabail</transport:Nom>
         <transport:Operator>Maersk Line</transport:Operator>
         <transport:Type>Aircraft Carrier</transport:Type>
     </owl:NamedIndividual>
@@ -4638,6 +4641,7 @@
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_8"/>
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_9"/>
         <transport:Possede rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#helicoptere_2"/>
+        <transport:capitaineDeNavire rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Navire_2"/>
         <transport:piloteDe rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#helicoptere_1"/>
         <transport:Adresse>587 Main Street, London</transport:Adresse>
         <transport:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</transport:Age>
