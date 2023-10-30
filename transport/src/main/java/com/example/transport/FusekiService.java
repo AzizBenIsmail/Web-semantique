@@ -28,7 +28,7 @@ public class  FusekiService {
 
             try (QueryExecution qexec = QueryExecutionFactory.sparqlService(fusekiEndpoint, query)) {
                 ResultSet results = qexec.execSelect();
-                System.out.println(results.next()+"result");
+                System.out.println(results+"result");
                 return results;
             } catch (QueryExceptionHTTP e) {
                 // Handle SPARQL query execution errors

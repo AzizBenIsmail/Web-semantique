@@ -1,9 +1,7 @@
 package com.example.transport;
 
-import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.RDFNode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -29,10 +27,10 @@ public class TransportApplication {
 //
 //	}
 
-		FusekiService fusekiService = new FusekiService("http://localhost:3030/Transport/query");
+		FusekiService fusekiService = new FusekiService("http://localhost:3030/Transport");
 
 		// Specify the path to your SPARQL query file
-		String sparqlQueryFilePath = "data/query2.txt";
+		String sparqlQueryFilePath = "data/query.txt";
 
 		// Execute the SPARQL query from the file
 		ResultSet resultSet = fusekiService.executeSparqlQueryFromFile(sparqlQueryFilePath);
