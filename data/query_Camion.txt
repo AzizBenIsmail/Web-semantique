@@ -2,7 +2,7 @@ PREFIX transport: <http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
-SELECT DISTINCT ?chauffeur ?nom ?age ?email ?adresse ?marque
+SELECT DISTINCT ?chauffeur ?nom ?age ?email ?adresse ?marque ?model
 WHERE {
   ?chauffeur rdf:type ?type .
   ?chauffeur transport:chauffeurDeCamion ?camion .
@@ -11,4 +11,5 @@ WHERE {
   ?chauffeur transport:Email ?email .
   ?chauffeur transport:Adresse ?adresse .
   ?camion transport:Marque ?marque .
+  ?camion transport:Model ?model .
 }
