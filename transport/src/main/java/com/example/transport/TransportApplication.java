@@ -31,11 +31,23 @@ public class TransportApplication {
 
 		FusekiService fusekiService = new FusekiService("http://localhost:3030/Transport/query");
 
-		// Specify the path to your SPARQL query file
+// Specify the path to your SPARQL query file
 		String sparqlQueryFilePath = "data/query2.txt";
 
-		// Execute the SPARQL query from the file
+// Execute the SPARQL query from the file
 		ResultSet resultSet = fusekiService.executeSparqlQueryFromFile(sparqlQueryFilePath);
+
+		while (resultSet.hasNext()) {
+			QuerySolution solution = resultSet.next();
+
+
+			// Check if the variables are not null before accessing their values
+			if (solution != null) {
+				System.out.println("Ceintures de Sécurité: " + solution.toString());
+			}
+
+		}
+
 
 	}
 }
