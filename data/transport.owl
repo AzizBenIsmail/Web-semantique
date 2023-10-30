@@ -93,13 +93,23 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#RoleSur -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#RoleSur">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Terrestre"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes"/>
+    </owl:ObjectProperty>
+
+
+
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#aPourInfrastructure -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#aPourInfrastructure">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Transport"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Infrastructure"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#capitaineDeNavire -->
@@ -108,7 +118,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Capitaine_de_navire"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Maritime"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#chauffeurDeBus -->
@@ -117,7 +127,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Chauffeur_de_bus"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Bus"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#chauffeurDeCamion -->
@@ -126,7 +136,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Chauffeur_de_camion"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Camion"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#chauffeurDeMetro -->
@@ -134,7 +144,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#chauffeurDeMetro">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#controleTraficAerienDe -->
@@ -144,7 +154,7 @@
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Avion"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Hélicoptere"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#controleurTraficRoutierDe -->
@@ -153,7 +163,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Contrôleur_de_trafic_routier"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#fourniParService -->
@@ -162,7 +172,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Services_de_Transport"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#hotesseDeLairDe -->
@@ -170,7 +180,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#hotesseDeLairDe">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#implemente -->
@@ -179,7 +189,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Technologies_de_Transport"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#itineraire -->
@@ -188,13 +198,13 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Infrastructure"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#louerPar -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#louerPar"/>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#mecanicienDeTrain -->
@@ -204,7 +214,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mecanicien_de_train"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Train"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#passagerDe -->
@@ -213,7 +223,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Passagers"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#piloteDe -->
@@ -224,7 +234,7 @@
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Avion"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Hélicoptere"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#soumisAReglement -->
@@ -233,13 +243,13 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Transport"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Règlements_de_Transport"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#station -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#station"/>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#suitReglesTransport -->
@@ -248,10 +258,10 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Règlements_de_Transport"/>
     </owl:ObjectProperty>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Data properties
@@ -259,7 +269,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Adresse -->
@@ -269,7 +279,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Age -->
@@ -279,13 +289,13 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Annee_de_fabrication -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Annee_de_fabrication"/>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Assistance_au_Stationnement -->
@@ -295,7 +305,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité_Véhicules"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Autonomie -->
@@ -305,7 +315,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Caractéristiques_du_Transport"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Barrières_de_sécurité -->
@@ -315,7 +325,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité_Routes"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Capacite_de_Cargaison -->
@@ -323,7 +333,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Capacite_de_Cargaison">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Capacité_de_Passagers -->
@@ -344,7 +354,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voiture"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Casques_de_moto -->
@@ -354,7 +364,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité_Passagers"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ceintures_de_Sécurité -->
@@ -364,7 +374,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité_Passagers"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Duree_de_vol_max -->
@@ -372,7 +382,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Duree_de_vol_max">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Email -->
@@ -381,13 +391,13 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Engines -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Engines"/>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Hauteur -->
@@ -397,7 +407,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Kilométrage -->
@@ -414,7 +424,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voiture"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Largeur -->
@@ -424,7 +434,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Longueur -->
@@ -434,7 +444,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Marque -->
@@ -444,13 +454,13 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Materiau_du_Cadre -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Materiau_du_Cadre"/>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Matricule -->
@@ -460,7 +470,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Model -->
@@ -470,7 +480,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Nationalite -->
@@ -480,7 +490,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Niveau_de_Carburant -->
@@ -500,7 +510,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voiture"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Nom -->
@@ -510,7 +520,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#NombrePorte -->
@@ -520,7 +530,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Numéro_dIdentification_de_Vol -->
@@ -531,7 +541,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Hélicoptere"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Operator -->
@@ -541,7 +551,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Prenom -->
@@ -551,7 +561,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Prix_du_Billet -->
@@ -571,7 +581,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Train"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Profondeur_maximale -->
@@ -581,7 +591,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Puissance_fiscale -->
@@ -591,7 +601,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Range_max -->
@@ -601,7 +611,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Systeme_ABS -->
@@ -611,7 +621,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité_Passagers"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SystèmeDeStabilitéÉlectronique -->
@@ -621,7 +631,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité_Véhicules"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SystèmeDeSécuritéActive -->
@@ -631,7 +641,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité_Véhicules"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Telephone -->
@@ -641,7 +651,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Type -->
@@ -651,7 +661,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Type_de_carburant -->
@@ -661,7 +671,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Caractéristiques_du_Transport"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Type_de_roteur -->
@@ -671,7 +681,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#VitesseMaximale -->
@@ -681,7 +691,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#VitesseMoyenne -->
@@ -691,7 +701,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité_Routes"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#airbags -->
@@ -701,7 +711,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité_Passagers"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#systemesignalisation -->
@@ -711,7 +721,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité_Routes"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#ÉclairagePublic -->
@@ -721,7 +731,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité_Routes"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#ÉtatDesRoutes -->
@@ -731,7 +741,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité_Routes"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#ÉvaluationDeSécuritéNCAP -->
@@ -741,7 +751,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité_Véhicules"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Chevaux_réels_(DIN) -->
@@ -751,7 +761,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Caractéristiques_du_Transport"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Systèmes_Surveillance_Pression_Pneus_(TPMS) -->
@@ -761,10 +771,10 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité_Véhicules"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -772,7 +782,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Autoroutes_internationales -->
@@ -780,7 +790,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Autoroutes_internationales">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_internationales"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Avion -->
@@ -790,7 +800,7 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Maritime"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Terrestre"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Aérien -->
@@ -804,7 +814,7 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Terrestre"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voies_ferrées"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Bateau -->
@@ -812,7 +822,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Bateau">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Maritime"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Bus -->
@@ -820,7 +830,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Bus">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Terrestre"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Camion -->
@@ -828,7 +838,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Camion">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Terrestre"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Capitaine_de_navire -->
@@ -854,7 +864,7 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Pilote"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Steward"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Caractéristiques_du_Transport -->
@@ -862,7 +872,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Caractéristiques_du_Transport">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Transport"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Chauffeur_de_bus -->
@@ -886,7 +896,7 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Pilote"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Steward"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Chauffeur_de_camion -->
@@ -910,7 +920,7 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Pilote"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Steward"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Chef_de_train -->
@@ -926,7 +936,7 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Pilote"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Steward"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Compagnies_aériennes -->
@@ -934,7 +944,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Compagnies_aériennes">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Services_de_Transport"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Compagnies_de_chemin_de_fer -->
@@ -942,7 +952,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Compagnies_de_chemin_de_fer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Services_de_Transport"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Compagnies_de_navigation -->
@@ -950,7 +960,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Compagnies_de_navigation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Services_de_Transport"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Compagnies_de_transport_routier -->
@@ -958,7 +968,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Compagnies_de_transport_routier">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Services_de_Transport"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Controleur_de_trafic_aerien -->
@@ -977,7 +987,7 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mecanicien_de_train"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Passagers"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Controleur_de_train -->
@@ -992,7 +1002,7 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Pilote"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Steward"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Contrôleur_de_trafic_routier -->
@@ -1013,7 +1023,7 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Pilote"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Steward"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Copilote -->
@@ -1024,7 +1034,7 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mecanicien_de_train"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Passagers"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Drone -->
@@ -1032,7 +1042,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Drone">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Aérien"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ferry -->
@@ -1040,7 +1050,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ferry">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Maritime"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Fiche_Technique -->
@@ -1048,7 +1058,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Fiche_Technique">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Caractéristiques_du_Transport"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Gestion_Trafic -->
@@ -1056,7 +1066,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Gestion_Trafic">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Règlements_de_Transport"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Hotesse -->
@@ -1073,7 +1083,7 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mecanicien_de_train"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Passagers"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Hélicoptere -->
@@ -1081,7 +1091,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Hélicoptere">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Aérien"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Infrastructure -->
@@ -1089,7 +1099,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Infrastructure">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Transport"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Marin -->
@@ -1101,7 +1111,7 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Pilote"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Steward"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Maritime -->
@@ -1114,7 +1124,7 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Terrestre"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voies_ferrées"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mecanicien_de_train -->
@@ -1131,7 +1141,7 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Pilote"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Steward"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Metro -->
@@ -1139,7 +1149,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Metro">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Terrestre"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport -->
@@ -1147,7 +1157,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Transport"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Moto -->
@@ -1155,7 +1165,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Moto">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Terrestre"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Navire -->
@@ -1163,7 +1173,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Navire">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Maritime"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Passagers -->
@@ -1179,7 +1189,7 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Pilote"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Steward"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Passages_piétons -->
@@ -1187,7 +1197,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Passages_piétons">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Infrastructure"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Permis_conduire_et_licences -->
@@ -1195,7 +1205,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Permis_conduire_et_licences">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Règlements_de_Transport"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne -->
@@ -1203,7 +1213,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Transport"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personnel_Ferroviaire -->
@@ -1211,7 +1221,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personnel_Ferroviaire">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personnel_Maritime -->
@@ -1219,7 +1229,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personnel_Maritime">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personnel_Routier -->
@@ -1227,7 +1237,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personnel_Routier">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personnel_dAviation -->
@@ -1235,7 +1245,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personnel_dAviation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Pilote -->
@@ -1249,7 +1259,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personnel_dAviation"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Pistes_cyclables -->
@@ -1257,7 +1267,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Pistes_cyclables">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Infrastructure"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports -->
@@ -1265,7 +1275,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Infrastructure"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Regles_Transport_Commun -->
@@ -1273,7 +1283,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Regles_Transport_Commun">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Règlements_de_Transport"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes -->
@@ -1281,7 +1291,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Infrastructure"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_internationales -->
@@ -1289,7 +1299,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_internationales">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_nationales -->
@@ -1297,7 +1307,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_nationales">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_nationales_primaires -->
@@ -1305,7 +1315,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_nationales_primaires">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_nationales"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_nationales_secondaires -->
@@ -1313,7 +1323,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_nationales_secondaires">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_nationales"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_transfrontalières -->
@@ -1321,7 +1331,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_transfrontalières">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_internationales"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Règlements_de_Transport -->
@@ -1329,7 +1339,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Règlements_de_Transport">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Transport"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Services_de_Transport -->
@@ -1337,7 +1347,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Services_de_Transport">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Transport"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Services_de_transport_en_commun -->
@@ -1345,7 +1355,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Services_de_transport_en_commun">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Services_de_Transport"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sous-marin -->
@@ -1353,7 +1363,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sous-marin">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Maritime"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Stations_de_métro -->
@@ -1361,7 +1371,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Stations_de_métro">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Infrastructure"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Steward -->
@@ -1369,7 +1379,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Steward">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personnel_dAviation"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Systèmes_gestion_circulation -->
@@ -1377,7 +1387,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Systèmes_gestion_circulation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Technologies_de_Transport"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité -->
@@ -1385,7 +1395,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Transport"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité_Passagers -->
@@ -1393,7 +1403,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité_Passagers">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité_Routes -->
@@ -1401,7 +1411,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité_Routes">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité_Véhicules -->
@@ -1409,7 +1419,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité_Véhicules">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Sécurité"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Technologies_de_Transport -->
@@ -1417,7 +1427,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Technologies_de_Transport">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Transport"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Terrestre -->
@@ -1432,7 +1442,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mode_de_Transport"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Train -->
@@ -1440,13 +1450,13 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Train">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Terrestre"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Transport -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Transport"/>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Transports_autonomes -->
@@ -1454,7 +1464,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Transports_autonomes">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Technologies_de_Transport"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Velo -->
@@ -1462,7 +1472,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Velo">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Terrestre"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voies_ferrées -->
@@ -1470,7 +1480,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voies_ferrées">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Infrastructure"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voiture -->
@@ -1478,10 +1488,10 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voiture">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Terrestre"/>
     </owl:Class>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Individuals
@@ -1489,7 +1499,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Avion_1 -->
@@ -1518,7 +1528,7 @@
         <transport:Model>A380</transport:Model>
         <transport:VitesseMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1200.0</transport:VitesseMoyenne>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Avion_2 -->
@@ -1546,7 +1556,7 @@
         <transport:Model>737</transport:Model>
         <transport:VitesseMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1500.0</transport:VitesseMoyenne>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Avion_3 -->
@@ -1573,7 +1583,7 @@
         <transport:Model>777</transport:Model>
         <transport:VitesseMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">560.0</transport:VitesseMoyenne>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Avion_4 -->
@@ -1599,7 +1609,7 @@
         <transport:Model>A320</transport:Model>
         <transport:VitesseMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">800.0</transport:VitesseMoyenne>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Avion_5 -->
@@ -1624,7 +1634,7 @@
         <transport:Model>747</transport:Model>
         <transport:VitesseMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1200.0</transport:VitesseMoyenne>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Bateau_1 -->
@@ -1654,7 +1664,7 @@
         <transport:Model>Boston Whaler 170 Montauk</transport:Model>
         <transport:VitesseMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</transport:VitesseMoyenne>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Bateau_2 -->
@@ -1683,7 +1693,7 @@
         <transport:Model>Sea Ray Sundancer 320</transport:Model>
         <transport:VitesseMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</transport:VitesseMoyenne>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Bateau_3 -->
@@ -1708,7 +1718,7 @@
         <transport:Model>Yamaha WaveRunner GP1800R</transport:Model>
         <transport:VitesseMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#int">70</transport:VitesseMoyenne>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Bateau_4 -->
@@ -1735,7 +1745,7 @@
         <transport:Model>Jeanneau Sun Odyssey 349</transport:Model>
         <transport:VitesseMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55</transport:VitesseMoyenne>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Bateau_5 -->
@@ -1760,7 +1770,7 @@
         <transport:Model>Grady-White Freedom 375</transport:Model>
         <transport:VitesseMoyenne rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50</transport:VitesseMoyenne>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Bus_1 -->
@@ -1789,7 +1799,7 @@
         <transport:Model>Citaro</transport:Model>
         <transport:VitesseMaximale rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</transport:VitesseMaximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Bus_2 -->
@@ -1817,7 +1827,7 @@
         <transport:Model rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9700</transport:Model>
         <transport:VitesseMaximale rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">105</transport:VitesseMaximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Bus_3 -->
@@ -1844,7 +1854,7 @@
         <transport:Model>Xcelsior</transport:Model>
         <transport:VitesseMaximale rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</transport:VitesseMaximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Bus_4 -->
@@ -1867,7 +1877,7 @@
         <transport:Model>Lion&apos;s City</transport:Model>
         <transport:VitesseMaximale rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</transport:VitesseMaximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Bus_5 -->
@@ -1892,7 +1902,7 @@
         <transport:Model>K9</transport:Model>
         <transport:VitesseMaximale rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</transport:VitesseMaximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Camion_1 -->
@@ -1917,7 +1927,7 @@
         <transport:Type_de_carburant>Diesel</transport:Type_de_carburant>
         <transport:VitesseMaximale rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">70</transport:VitesseMaximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Camion_2 -->
@@ -1941,7 +1951,7 @@
         <transport:Type_de_carburant>Diesel</transport:Type_de_carburant>
         <transport:VitesseMaximale rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</transport:VitesseMaximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Camion_3 -->
@@ -1964,7 +1974,7 @@
         <transport:Type_de_carburant>Essence</transport:Type_de_carburant>
         <transport:VitesseMaximale rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136</transport:VitesseMaximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Drone_1 -->
@@ -1986,7 +1996,7 @@
         <transport:Model>Urban Aeronautics CityHawk</transport:Model>
         <transport:Range_max rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</transport:Range_max>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Drone_2 -->
@@ -2007,7 +2017,7 @@
         <transport:Model>Volocopter 2X</transport:Model>
         <transport:Range_max rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</transport:Range_max>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Drone_3 -->
@@ -2027,7 +2037,7 @@
         <transport:Model>Lilium Jet</transport:Model>
         <transport:Range_max rdf:datatype="http://www.w3.org/2001/XMLSchema#int">70</transport:Range_max>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Drone_4 -->
@@ -2046,7 +2056,7 @@
         <transport:Model>Joby Aviation EVTOL</transport:Model>
         <transport:Range_max rdf:datatype="http://www.w3.org/2001/XMLSchema#int">100</transport:Range_max>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Drone_5 -->
@@ -2064,7 +2074,7 @@
         <transport:Model>Urban Aeronautics CityHawk</transport:Model>
         <transport:Range_max rdf:datatype="http://www.w3.org/2001/XMLSchema#int">150</transport:Range_max>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Elyes -->
@@ -2074,7 +2084,7 @@
         <transport:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25</transport:Age>
         <transport:Nationalite>Tunisien</transport:Nationalite>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ferry_1 -->
@@ -2090,7 +2100,7 @@
         <transport:Model>Staten Island Ferry</transport:Model>
         <transport:Operator>NYC Department of Transportation</transport:Operator>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ferry_2 -->
@@ -2108,7 +2118,7 @@
         <transport:Model>BC Ferries Spirit of British Columbia</transport:Model>
         <transport:Operator>BC Ferries</transport:Operator>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ferry_3 -->
@@ -2125,7 +2135,7 @@
         <transport:Model>M/V Peraliya</transport:Model>
         <transport:Operator>Ceylon Shipping Corporation</transport:Operator>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Metro_1 -->
@@ -2145,7 +2155,7 @@
         <transport:Model>R160</transport:Model>
         <transport:VitesseMaximale rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">88</transport:VitesseMaximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Metro_2 -->
@@ -2163,7 +2173,7 @@
         <transport:Model>MP 14</transport:Model>
         <transport:VitesseMaximale rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</transport:VitesseMaximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Metro_3 -->
@@ -2180,7 +2190,7 @@
         <transport:Model>S Stock</transport:Model>
         <transport:VitesseMaximale rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</transport:VitesseMaximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Moto_1 -->
@@ -2205,7 +2215,7 @@
         <transport:Type_de_carburant>Essence</transport:Type_de_carburant>
         <transport:VitesseMaximale rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</transport:VitesseMaximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Moto_2 -->
@@ -2226,7 +2236,7 @@
         <transport:Type>Touring</transport:Type>
         <transport:VitesseMaximale rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">175</transport:VitesseMaximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Moto_3 -->
@@ -2246,7 +2256,7 @@
         <transport:Type_de_carburant>Essence</transport:Type_de_carburant>
         <transport:VitesseMaximale rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">225</transport:VitesseMaximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Navire_1 -->
@@ -2271,7 +2281,7 @@
         <transport:Operator>Cunard Line</transport:Operator>
         <transport:Type>Container Ship</transport:Type>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Navire_2 -->
@@ -2290,7 +2300,7 @@
         <transport:Operator>Maersk Line</transport:Operator>
         <transport:Type>Aircraft Carrier</transport:Type>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Navire_3 -->
@@ -2311,7 +2321,7 @@
         <transport:Operator>United States Navy</transport:Operator>
         <transport:Type>Luxury Cruise Ship</transport:Type>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Passages_pietons1 -->
@@ -2328,7 +2338,7 @@
         <transport:Longueur rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11000</transport:Longueur>
         <transport:Nom>Av Hbib Borgiba</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Passages_pietons2 -->
@@ -2344,7 +2354,7 @@
         <transport:Longueur rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7000</transport:Longueur>
         <transport:Nom>Av Mohamed V</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Passages_pietons3 -->
@@ -2359,7 +2369,7 @@
         <transport:Longueur rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17000</transport:Longueur>
         <transport:Nom>Marsa</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_1 -->
@@ -2379,14 +2389,14 @@
         <transport:Possede rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Velo_1"/>
         <transport:chauffeurDeCamion rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Camion_1"/>
         <transport:Adresse>Ben Arous, Mornag</transport:Adresse>
-        <transport:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26</transport:Age>
+        <transport:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</transport:Age>
         <transport:Email>AhmedBenMaiz@gmail.com</transport:Email>
         <transport:Nationalite>Tunisienne</transport:Nationalite>
         <transport:Nom>Ben Maiz</transport:Nom>
         <transport:Prenom>Ahmed</transport:Prenom>
         <transport:Telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99548236</transport:Telephone>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_10 -->
@@ -2405,14 +2415,14 @@
         <transport:Possede rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#helicoptere_2"/>
         <transport:piloteDe rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#helicoptere_1"/>
         <transport:Adresse>587 Main Street, London</transport:Adresse>
-        <transport:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26</transport:Age>
+        <transport:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</transport:Age>
         <transport:Email>EmilySmith@wework.com</transport:Email>
         <transport:Nationalite>Britannique</transport:Nationalite>
         <transport:Nom>Smith</transport:Nom>
         <transport:Prenom>Emily</transport:Prenom>
         <transport:Telephone>+44 20 1234 5678</transport:Telephone>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_11 -->
@@ -2428,7 +2438,7 @@
         <transport:Prenom>Ahmed</transport:Prenom>
         <transport:Telephone>+213-555-123456</transport:Telephone>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_12 -->
@@ -2444,7 +2454,7 @@
         <transport:Prenom>Samira</transport:Prenom>
         <transport:Telephone>+213-5-55678901</transport:Telephone>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_13 -->
@@ -2460,7 +2470,7 @@
         <transport:Prenom>Khaled</transport:Prenom>
         <transport:Telephone>+213-5-55678901</transport:Telephone>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_14 -->
@@ -2476,7 +2486,7 @@
         <transport:Prenom>Jamal</transport:Prenom>
         <transport:Telephone>+218-91-1234567</transport:Telephone>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_15 -->
@@ -2492,7 +2502,7 @@
         <transport:Prenom>Aisha</transport:Prenom>
         <transport:Telephone>+218-92-9876543</transport:Telephone>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_16 -->
@@ -2508,7 +2518,7 @@
         <transport:Prenom>Ahmed</transport:Prenom>
         <transport:Telephone>+218-95-5555555</transport:Telephone>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_2 -->
@@ -2526,14 +2536,14 @@
         <transport:Possede rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Moto_1"/>
         <transport:mecanicienDeTrain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Train_1"/>
         <transport:Age>21854639</transport:Age>
-        <transport:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28</transport:Age>
+        <transport:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</transport:Age>
         <transport:Email>IbrahimKraim@gmail.com</transport:Email>
         <transport:Email>KAIROUAN, Okba 3100</transport:Email>
         <transport:Nationalite>Tunisienne</transport:Nationalite>
         <transport:Nom>Kraim</transport:Nom>
         <transport:Prenom>Ibrahim</transport:Prenom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_3 -->
@@ -2551,14 +2561,14 @@
         <transport:Possede rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Velo_1"/>
         <transport:Possede rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voiture_2"/>
         <transport:Adresse>6 Rue 14 Janvier, Ben Arous 2063</transport:Adresse>
-        <transport:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33</transport:Age>
+        <transport:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</transport:Age>
         <transport:Email>MaherBenYounes@live.fr</transport:Email>
         <transport:Nationalite>Tunisienne</transport:Nationalite>
         <transport:Nom>Ben Younes</transport:Nom>
         <transport:Prenom>Maher</transport:Prenom>
         <transport:Telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">54782963</transport:Telephone>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_4 -->
@@ -2574,13 +2584,13 @@
         <transport:Possede rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#helicoptere_1"/>
         <transport:hotesseDeLairDe rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Avion_1"/>
         <transport:Adresse>789 Boulevard de la Liberté, Marseille</transport:Adresse>
-        <transport:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</transport:Age>
+        <transport:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</transport:Age>
         <transport:Nationalite>Française</transport:Nationalite>
         <transport:Nom>Dubois</transport:Nom>
         <transport:Prenom>Sophie</transport:Prenom>
         <transport:Telephone>+33 1 23 45 67 89</transport:Telephone>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_5 -->
@@ -2594,7 +2604,7 @@
         <transport:Possede rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voiture_3"/>
         <transport:Possede rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#helicoptere_3"/>
         <transport:piloteDe rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Avion_1"/>
-        <transport:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</transport:Age>
+        <transport:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</transport:Age>
         <transport:Email>PierreMartin@airbus.com</transport:Email>
         <transport:Nationalite>Française</transport:Nationalite>
         <transport:Nom>Martin</transport:Nom>
@@ -2602,7 +2612,7 @@
         <transport:Telephone>+33 4 56 78 90 12</transport:Telephone>
         <transport:Telephone>456 Avenue des Champs-Élysées, Lyon</transport:Telephone>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_6 -->
@@ -2616,14 +2626,14 @@
         <transport:Possede rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voiture_3"/>
         <transport:piloteDe rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Avion_2"/>
         <transport:Adresse>789 Boulevard de la Liberté, Marseille</transport:Adresse>
-        <transport:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23</transport:Age>
+        <transport:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</transport:Age>
         <transport:Email>SophieCaron@gmail.com</transport:Email>
         <transport:Nationalite>Française</transport:Nationalite>
         <transport:Nom>Caron</transport:Nom>
         <transport:Prenom>Sophie</transport:Prenom>
         <transport:Telephone>+33 6 78 90 12 34</transport:Telephone>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_7 -->
@@ -2642,7 +2652,7 @@
         <transport:Prenom>Anna</transport:Prenom>
         <transport:Telephone>+49 30 12345678</transport:Telephone>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_8 -->
@@ -2660,7 +2670,7 @@
         <transport:Prenom>Klaus</transport:Prenom>
         <transport:Telephone>+49 89 98765432</transport:Telephone>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_9 -->
@@ -2671,14 +2681,14 @@
         <transport:Possede rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voiture_1"/>
         <transport:chauffeurDeBus rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Bus_1"/>
         <transport:Adresse>Nebengasse 789, Hamburg</transport:Adresse>
-        <transport:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41</transport:Age>
+        <transport:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</transport:Age>
         <transport:Email>PetraWagner@sokundo.com</transport:Email>
         <transport:Nationalite>Allemande</transport:Nationalite>
         <transport:Nom>Petra</transport:Nom>
         <transport:Prenom>Wagner</transport:Prenom>
         <transport:Telephone>+49 40 56789012</transport:Telephone>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Pistes_cyclables1 -->
@@ -2691,7 +2701,7 @@
         <transport:Longueur rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12000</transport:Longueur>
         <transport:Nom>Piste Lac 0</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Pistes_cyclables2 -->
@@ -2704,7 +2714,7 @@
         <transport:Longueur rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30000</transport:Longueur>
         <transport:Nom>DjerbaCyclo</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Pistes_cyclables3 -->
@@ -2717,7 +2727,7 @@
         <transport:Longueur rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15000</transport:Longueur>
         <transport:Nom>Monasitr</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports1 -->
@@ -2729,7 +2739,7 @@
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SousMarin_3"/>
         <transport:Nom>rades</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports2 -->
@@ -2741,7 +2751,7 @@
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SousMarin_3"/>
         <transport:Nom>zarzis</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports3 -->
@@ -2753,7 +2763,7 @@
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SousMarin_3"/>
         <transport:Nom>Sfax</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_nationales_primaires1 -->
@@ -2773,7 +2783,7 @@
         <transport:Longueur rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">150000</transport:Longueur>
         <transport:Nom>A1</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_nationales_primaires2 -->
@@ -2792,7 +2802,7 @@
         <transport:Longueur rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">115000</transport:Longueur>
         <transport:Nom>A2</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_nationales_primaires3 -->
@@ -2809,7 +2819,7 @@
         <transport:Longueur rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250000</transport:Longueur>
         <transport:Nom>A3</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_nationales_secondaires1 -->
@@ -2821,7 +2831,7 @@
         <transport:Longueur rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12000</transport:Longueur>
         <transport:Nom>RN tunis-bizert</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_nationales_secondaires2 -->
@@ -2835,7 +2845,7 @@
         <transport:Longueur rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30000</transport:Longueur>
         <transport:Nom>RNTunis-Kairawen</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_nationales_secondaires3 -->
@@ -2848,7 +2858,7 @@
         <transport:Longueur rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7000</transport:Longueur>
         <transport:Nom>RNGafsa-Sidibouzid</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SousMarin_1 -->
@@ -2862,7 +2872,7 @@
         <transport:Operator>United States Navy</transport:Operator>
         <transport:Profondeur_maximale rdf:datatype="http://www.w3.org/2001/XMLSchema#int">800</transport:Profondeur_maximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SousMarin_2 -->
@@ -2875,7 +2885,7 @@
         <transport:Operator>Various navies</transport:Operator>
         <transport:Profondeur_maximale rdf:datatype="http://www.w3.org/2001/XMLSchema#int">800</transport:Profondeur_maximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SousMarin_3 -->
@@ -2887,7 +2897,7 @@
         <transport:Operator>Royal Navy</transport:Operator>
         <transport:Profondeur_maximale rdf:datatype="http://www.w3.org/2001/XMLSchema#int">800</transport:Profondeur_maximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Stations_de_métro1 -->
@@ -2896,7 +2906,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Stations_de_métro"/>
         <transport:Nom>Barcelone</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Stations_de_métro2 -->
@@ -2905,7 +2915,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Stations_de_métro"/>
         <transport:Nom>Passage</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Stations_de_métro3 -->
@@ -2914,7 +2924,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Stations_de_métro"/>
         <transport:Nom>Manouba</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Train_1 -->
@@ -2928,7 +2938,7 @@
         <transport:Model>TGV Duplex</transport:Model>
         <transport:VitesseMaximale rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</transport:VitesseMaximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Train_2 -->
@@ -2941,7 +2951,7 @@
         <transport:Model>N700</transport:Model>
         <transport:VitesseMaximale rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</transport:VitesseMaximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Train_3 -->
@@ -2953,7 +2963,7 @@
         <transport:Model>Series L0</transport:Model>
         <transport:VitesseMaximale rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">603</transport:VitesseMaximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Velo_1 -->
@@ -2969,7 +2979,7 @@
         <transport:Type>Vélo de route/endurance</transport:Type>
         <transport:VitesseMaximale rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</transport:VitesseMaximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Velo_2 -->
@@ -2984,7 +2994,7 @@
         <transport:Type>VTT tout-suspendu</transport:Type>
         <transport:VitesseMaximale rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</transport:VitesseMaximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Velo_3 -->
@@ -2998,7 +3008,7 @@
         <transport:Type>Vélo cargo/utilitaire</transport:Type>
         <transport:VitesseMaximale rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25</transport:VitesseMaximale>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voies_ferrées1 -->
@@ -3008,7 +3018,7 @@
         <transport:Longueur rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</transport:Longueur>
         <transport:Nom>Tun-Sfax</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voies_ferrées2 -->
@@ -3018,7 +3028,7 @@
         <transport:Longueur rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">250</transport:Longueur>
         <transport:Nom>Tun-Jnadouba</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voies_ferrées3 -->
@@ -3028,7 +3038,7 @@
         <transport:Longueur rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</transport:Longueur>
         <transport:Nom>Sfax-Gabes</transport:Nom>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voiture_1 -->
@@ -3037,6 +3047,12 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voiture"/>
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voiture_2"/>
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Voiture_3"/>
+        <transport:RoleSur rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_nationales_primaires1"/>
+        <transport:RoleSur rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_nationales_primaires2"/>
+        <transport:RoleSur rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_nationales_primaires3"/>
+        <transport:RoleSur rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_nationales_secondaires1"/>
+        <transport:RoleSur rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_nationales_secondaires2"/>
+        <transport:RoleSur rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Routes_nationales_secondaires3"/>
         <transport:implemente rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#securite_passagers1"/>
         <transport:soumisAReglement rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#securite_routes1"/>
         <transport:Annee_de_fabrication rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</transport:Annee_de_fabrication>
