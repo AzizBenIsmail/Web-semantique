@@ -40,6 +40,14 @@
 
 
 
+    <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Amarrer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Amarrer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+
+
+
     <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Assure -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Assure">
@@ -54,6 +62,16 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#EstExploitéPar">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Infrastructure"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Services_de_Transport"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mecanicien_naval -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Mecanicien_naval">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Bateau"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Marin"/>
     </owl:ObjectProperty>
 
 
@@ -2243,8 +2261,13 @@
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SousMarin_1"/>
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SousMarin_2"/>
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SousMarin_3"/>
+        <transport:ACommePort rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports1"/>
+        <transport:ACommePort rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports2"/>
+        <transport:ACommePort rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports3"/>
+        <transport:Mecanicien_naval rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_1"/>
         <transport:Capacité_de_Passagers rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2544</transport:Capacité_de_Passagers>
         <transport:Model>RMS Queen Mary 2</transport:Model>
+        <transport:Nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Week-cruisers</transport:Nom>
         <transport:Operator>Cunard Line</transport:Operator>
         <transport:Type>Container Ship</transport:Type>
     </owl:NamedIndividual>
@@ -2280,8 +2303,11 @@
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SousMarin_1"/>
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SousMarin_2"/>
         <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#SousMarin_3"/>
+        <transport:ACommePort rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Ports2"/>
+        <transport:Mecanicien_naval rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Personne_9"/>
         <transport:Capacité_de_Passagers rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6000</transport:Capacité_de_Passagers>
         <transport:Model>USS Nimitz (CVN-68)</transport:Model>
+        <transport:Nom>Day-cruisers</transport:Nom>
         <transport:Operator>United States Navy</transport:Operator>
         <transport:Type>Luxury Cruise Ship</transport:Type>
     </owl:NamedIndividual>
@@ -2514,7 +2540,7 @@
         <transport:capitaineDeNavire rdf:resource="http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#Navire_1"/>
         <transport:Adresse>Musterstraße 123, Berlin</transport:Adresse>
         <transport:Age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</transport:Age>
-        <transport:Email xml:lang="gmail.com">AnnaMüller</transport:Email>
+        <transport:Email xml:lang="gmail.com">AnnaMuller</transport:Email>
         <transport:Nationalite>Allemande</transport:Nationalite>
         <transport:Nom>Muller</transport:Nom>
         <transport:Prenom>Anna</transport:Prenom>
