@@ -9,4 +9,12 @@ public class FusekiConfig {
     private String datasetName = "Transport";
 
     // Les getters et les setters
+
+    public String getFusekiEndpoint() {
+        return fusekiEndpoint;
+    }
+
+    public String getDatasetName() {
+        return datasetName;
+    }
 }
