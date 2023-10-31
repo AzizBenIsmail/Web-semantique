@@ -6,13 +6,12 @@ SELECT DISTINCT ?chauffeur ?nom ?age ?email ?adresse ?marque ?model
 WHERE {
 
     ?chauffeur rdf:type ?type .
-    ?chauffeur transport:chauffeurDeCamion ?camion .
+    ?chauffeur transport:Possede ?velo .
     ?chauffeur transport:Nom ?nom .
     ?chauffeur transport:Age ?age .
     ?chauffeur transport:Email ?email .
     ?chauffeur transport:Adresse ?adresse .
-    ?camion transport:Marque ?marque .
-    ?camion transport:Model ?model .
-
-
-}
+    ?velo rdf:type transport:Velo .
+    ?velo transport:Marque ?marque .
+    ?velo transport:Model ?model .
+  }
