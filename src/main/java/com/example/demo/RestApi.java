@@ -149,6 +149,29 @@ public class RestApi {
             return ("Error when reading model from ontology");
         }
     }
+
+    @GetMapping("/camionvelo")
+    @CrossOrigin(origins = "http://localhost:3000")
+    public String afficherCamionvelo() {
+        String NS = "";
+        if (model != null) {
+
+            NS = model.getNsPrefixURI("");
+
+
+            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
+
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_Camion2.txt");
+
+
+            System.out.println(res);
+            return res.toString();
+
+
+        } else {
+            return ("Error when reading model from ontology");
+        }
+    }
     
 }
 
