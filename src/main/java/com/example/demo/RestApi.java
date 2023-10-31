@@ -59,6 +59,28 @@ public class RestApi {
             return ("Error when reading model from ontology");
         }
     }
+    @GetMapping("/bateauSecurite")
+    @CrossOrigin(origins = "http://localhost:3000")
+    public String afficherBateauSecurite() {
+        String NS = "";
+        if (model != null) {
+
+            NS = model.getNsPrefixURI("");
+
+
+            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
+
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_Bateau_Securite.txt");
+
+
+            System.out.println(res);
+            return res.toString();
+
+
+        } else {
+            return ("Error when reading model from ontology");
+        }
+    }
     @GetMapping("/voiture_velo")
     @CrossOrigin(origins = "http://localhost:3000")
     public String afficherVoituresEtVelos() {

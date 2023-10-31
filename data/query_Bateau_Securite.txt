@@ -1,0 +1,9 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX transport: <http://www.semanticweb.org/ontologies/5twin6/scaredtocompile/transport#>
+
+SELECT ?bateau ?marin ?regulationR
+WHERE {
+  ?bateau rdf:type transport:Bateau .
+  ?bateau transport:Mecanicien_naval ?marin .
+  ?bateau transport:Assure ?regulationR.
+}
